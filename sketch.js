@@ -36,7 +36,7 @@ function updateSliders() {
 }
 
 function modelReady() {
-  select('#status').html('Model Loaded ' + new Date().toLocaleString());
+  select('#status').html('Loaded ' + new Date().toLocaleString());
   modelIsReady = true;
 }
 
