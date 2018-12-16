@@ -1,14 +1,7 @@
-// Copyright (c) 2018 ml5
-//
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
-
-/* ===
-ml5 Example
-LSTM Generator example with p5.js
-This uses a pre-trained model on a corpus of privacy policies
-For more models see: https://github.com/ml5js/ml5-data-and-training/tree/master/models/lstm
-=== */
+/*
+This uses a ml5 charRNN model trained on a corpus of privacy policies
+For more about ml5 see https://ml5js.org/
+*/
 
 let charRNN;
 let textInput;
@@ -23,7 +16,7 @@ let currentText = '';
 function setup() {
   noCanvas();
 
-  // Create the LSTM Generator passing it the model directory
+  // Create the charRNN generator passing it the model directory
   charRNN = ml5.charRNN('./models/privacy_policies/', modelReady);
 
   // Grab the DOM elements
@@ -85,7 +78,6 @@ function onStopButton() {
 // Generate new text
 function generate(seed, stateful) {
    // prevent starting inference if we've already started another instance
-   // TODO: is there better JS way of doing this?
   if(!runningInference) {
     runningInference = true;
 
