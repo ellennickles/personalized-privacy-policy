@@ -4,7 +4,7 @@ Originally posted on October 16, 2018, for Neural Aesthetic @ NYU ITP Fall 2018
 
 ![process-1](images/process-1.jpg)
 
-Since my last post for Neural Aesthetic, I’ve gained a broader view of accessible tools to develop machine learning projects, such as [ml4a](https://ml4a.github.io/), [ml5](https://ml5js.org/), and [Wekinator](http://www.wekinator.org/). This survey helped me understand that I’m most interested in developing projects with the potential to generate potentially distinct content (expressive output) with potentially distinct and expressive input.
+Since my last post for Neural Aesthetic, I’ve gained a broader view of accessible tools to develop machine learning projects, such as [ml4a](https://ml4a.github.io/), [ML5](https://ml5js.org/), and [Wekinator](http://www.wekinator.org/). This survey helped me understand that I’m most interested in developing projects with the potential to generate potentially distinct content (expressive output) with potentially distinct and expressive input.
 
 ## GUIDING QUESTIONS
 
