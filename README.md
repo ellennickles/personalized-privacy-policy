@@ -1,5 +1,3 @@
-# Personalized Privacy Policy
-
 ![readme-demo](images/readme-demo.jpg)
   
 \
