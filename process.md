@@ -1,6 +1,6 @@
 # Generating Text with a LSTM Neural Network
 
-Originally posted on October 16, 2018 for Neural Aesthetic @ NYU ITP Fall 2018
+Originally posted on October 16, 2018, for Neural Aesthetic @ NYU ITP Fall 2018
 
 ![process-1](images/process-1.jpg)
 
