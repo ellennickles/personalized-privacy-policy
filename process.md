@@ -2,7 +2,7 @@
 
 October 16, 2018 • Neural Aesthetic @ NYU ITP Fall 2018
 
-[ADD IMAGE]()
+![process-1](images/process-1.jpg)
 
 Since my last post for Neural Aesthetic, I’ve gained a broader view of accessible tools to develop machine learning projects, such as [ml4a](https://ml4a.github.io/), [ml5](https://ml5js.org/), and [Wekinator](http://www.wekinator.org/). This survey helped me understand that I’m most interested in developing projects with the potential to generate potentially distinct content (expressive output) with potentially distinct and expressive input.
 
@@ -56,11 +56,11 @@ ROUND 1 - ML5’s [Interactive Text Generation LSTM example](https://ml5js.org/d
 
 This was fun to play with but extremely slooow to respond when entering seed text…painfully so…freezing my browser slow, especially as I increased the length of the prediction. Speaking with Cris in office hours, I learned that this is example is stateless, in other words every time a new seed character is entered, it and all of the previous characters are used to recalculate an entirely new prediction. Screen grab below, prediction in blue.
 
-[ADD IMAGE]()
+![process-2](images/process-2.jpg)
 
 ROUND 2 - Just my luck, about an hour before talking to Cris, machine learning artist, [Memo Akten](http://www.memo.tv/), made a ML5 pull request with a stateful LSTM example: “Instead of feeding every single character every frame to predict the next character, we feed only the last character, and instruct the LSTM to remember its internal state.” Excited to see how it would work, we downloaded the entire ML5 library, integrated Memo’s example, and ran it on my computer. Much faster and even more fun!
 
-[ADD IMAGE]()
+![process-3](images/process-3.jpg)
 
 ## TOPIC 2: THE CONGRESSIONAL RECORD OF THE UNITED STATES CONGRESS
 
@@ -107,7 +107,7 @@ This worked better and ensured the UTF-8 encoding that I needed:
 
 I again used the newly suggested Stateful LSTM ML5 example:
 
-[Add Image]()
+![process-4](images/process-4.png)
 
 ## TAKEAWAYS
 
@@ -118,8 +118,7 @@ I gained a lot of practice from this process. Most of my time was spent thinking
 [Personalized Privacy Policy](https://ellennickles.github.io/personalized-privacy-policy/)
 
 ## ADDITIONAL RESOURCES
-
-[The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-[ml4a guide: Recurrent Neural Networks: Character RNNs with Keras](https://github.com/ml4a/ml4a-guides/blob/master/notebooks/recurrent_neural_networks.ipynb)
-[Training a char-rnn to Talk Like Me](https://hjweide.github.io/char-rnn)
+* [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+* [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+* [ml4a guide: Recurrent Neural Networks: Character RNNs with Keras](https://github.com/ml4a/ml4a-guides/blob/master/notebooks/recurrent_neural_networks.ipynb)
+* [Training a char-rnn to Talk Like Me](https://hjweide.github.io/char-rnn)
