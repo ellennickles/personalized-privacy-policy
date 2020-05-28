@@ -1,6 +1,6 @@
 # Personalized Privacy Policy
 
-![demo](demo.jpg)
+![demo](images/demo.jpg)
   
 \
 Try it [here](https://ellennickles.github.io/personalized-privacy-policy/).
