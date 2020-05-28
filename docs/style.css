@@ -1,6 +1,7 @@
 body {
   max-width: 1000px;
   margin: auto;
+  font-family: monospace;
 }
 
 body,
@@ -8,12 +9,10 @@ input,
 textarea {
   font-size: 16px;
   text-align: left;
-  font-family: monospace;
 }
 
 button {
   font-size: 14px;
-  font-family: monospace;
 }
 
 textarea {
